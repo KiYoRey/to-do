@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/avocado.jpg" type="image/x-icon">
+</head>
+<body  class="green-theme">
+    <!---switch -->
+   
+    <div class="container">
+
+        <!-- <div class="theme"> 
+            <img src="img/pinkcow.jpg" alt="">
+        </div> -->
+        <div class="todo-a">
+            <h2>What's the plan for today  <abbr title="click me "> <img id="pink" onclick="toggleTheme()" src="img/avocado.jpg" alt=""></abbr></h2>
+            <!-- <img src="img/avocado.jpg" alt=""> -->
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="add ur text">
+                <button onclick="zidTask()">add</button>
+                  
+            </div>
+            <ul id="listCont">
+                <!-- <li class="checked">t1</li>
+                <li>t2</li>-->
+                
+            </ul>
+            <div class="btn1">
+            <button  onclick="deleteAll()">Cleaar</button>
+            <button onclick="filterChecked()">Checked</button>
+            <button onclick="filterUnchecked()">Unchecked</button>
+        </div></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
